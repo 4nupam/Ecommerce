@@ -1,0 +1,43 @@
+nav ,.nav_center , .nav_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8px;
+}
+.nav_center ul {
+    display: flex;
+    gap: 28px;
+    color: aliceblue;
+}
+
+.nav_center ul a{
+    text-decoration: none;
+    color: black;
+}
+.nav_right{
+gap: 8px;
+}
+.nav_center ul a:hover{
+    text-decoration: underline;
+    color: rgb(52, 110, 218);
+}
+.nav_right b{
+
+    font-size: 20px;
+}
+.login-button {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding:8px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the container an inline block */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 12px; /* Rounded corners */
+    transition: background-color 0.3s; /* Animation */
+  }
+  
+  .login-button:hover {
+    background-color: #45a049; /* Darker green */
+  }

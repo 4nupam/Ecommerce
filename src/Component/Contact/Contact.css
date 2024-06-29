@@ -1,0 +1,79 @@
+/* General Styling for Contact Sections */
+.contact-form, .contact-info, .subscribe, .support, .account, .quick-link {
+    background: #fff;
+    margin: 3px auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form:hover, .contact-info:hover, .subscribe:hover, .support:hover, .account:hover, .quick-link:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px rgba(0,0,0,0.2);
+}
+
+.contact-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+/* Typography */
+.contact-form h2, .contact-info h3, .subscribe h3, .support h3, .account h3, .quick-link h3 {
+    margin-bottom: 15px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+/* Form Styling */
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    border-color: #d35400;
+}
+
+.contact-form button {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #d35400;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.contact-form button:hover {
+    background: #e67e22;
+    transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-page {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .contact-form, .contact-info, .subscribe, .support, .account, .quick-link {
+        max-width: 100%;
+    }
+}
