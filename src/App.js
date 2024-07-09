@@ -20,7 +20,7 @@ function App() {
           <Router>
             <Nav />
             <Routes>
-              <Route path='/Hero' element={<Hero />} />
+              <Route path='/' element={<Hero />} />
               <Route exact path='/Login' element={<Login />} />
               <Route path='/Sign' element={<Sign />} />
               <Route path='/Contact' element={<Contact />} />
