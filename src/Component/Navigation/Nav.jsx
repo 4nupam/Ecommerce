@@ -18,7 +18,7 @@ function Nav() {
             <span className="ml-3 text-xl">Xclusive</span>
           </a>
           <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-            <Link className="mr-5 hover:text-gray-900" to="/hero">
+            <Link className="mr-5 hover:text-gray-900" to="/">
               Home
             </Link>
             <Link className="mr-5 hover:text-gray-900" to="/Contact">
